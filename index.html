@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <h2>Games</h2>
+    </nav>
+    <div class="hero-section">
+      <div class="part left-part">
+        <div
+          class="game rock hidden"
+          data-item-name="rock"
+          data-player="p1"
+        ></div>
+        <div
+          class="game paper hidden"
+          data-item-name="paper"
+          data-player="p1"
+        ></div>
+        <div
+          class="game scissor hidden"
+          data-item-name="scissor"
+          data-player="p1"
+        ></div>
+      </div>
+      <div class="part right-part">
+        <div
+          class="game rock hidden"
+          data-item-name="rock"
+          data-player="p2"
+        ></div>
+        <div
+          class="game paper hidden"
+          data-item-name="paper"
+          data-player="p2"
+        ></div>
+        <div
+          class="game scissor hidden"
+          data-item-name="scissor"
+          data-player="p2"
+        ></div>
+      </div>
+      <div class="btn-container">
+        <h1 class="message hidden">You Win!</h1>
+        <button class="btn play">Start</button>
+
+        <button class="play-again btn2 hidden">Play Again</button>
+        <button class="cancel btn3 hidden">Cancel</button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
